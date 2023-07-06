@@ -52,6 +52,9 @@ const UserSchema = new mongoose.Schema(
     description: {
       type: String,
     },
+    updatedCategories: {
+      type: Array,
+    },
     date: {
       type: Date,
       default: Date.now,
